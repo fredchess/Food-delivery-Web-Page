@@ -522,6 +522,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: relative;
 }
 
+.m-auto {
+  margin: auto;
+}
+
+.-m-\[20px\] {
+  margin: -20px;
+}
+
+.-m-\[165px\] {
+  margin: -165px;
+}
+
 .my-\[63px\] {
   margin-top: 63px;
   margin-bottom: 63px;
@@ -547,6 +559,42 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-\[73px\] {
   margin-top: 73px;
+}
+
+.-ml-\[20px\] {
+  margin-left: -20px;
+}
+
+.mt-\[100px\] {
+  margin-top: 100px;
+}
+
+.-mt-\[165px\] {
+  margin-top: -165px;
+}
+
+.-mt-\[265px\] {
+  margin-top: -265px;
+}
+
+.-mt-\[150px\] {
+  margin-top: -150px;
+}
+
+.-mt-\[145px\] {
+  margin-top: -145px;
+}
+
+.-mt-\[245px\] {
+  margin-top: -245px;
+}
+
+.-mt-\[55px\] {
+  margin-top: -55px;
+}
+
+.-ml-\[28px\] {
+  margin-left: -28px;
 }
 
 .block {
@@ -581,8 +629,36 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 619px;
 }
 
+.h-\[586px\] {
+  height: 586px;
+}
+
+.w-\[550px\] {
+  width: 550px;
+}
+
+.w-\[299px\] {
+  width: 299px;
+}
+
+.w-\[575px\] {
+  width: 575px;
+}
+
 .resize {
   resize: both;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -609,6 +685,15 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(250 74 12 / var(--tw-bg-opacity));
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'assets\/images\/home-hero\.png\'\)\] {
   background-image: url('assets/images/home-hero.png');
 }
@@ -631,6 +716,21 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-center {
+  -o-object-position: center;
+     object-position: center;
 }
 
 .text-center {

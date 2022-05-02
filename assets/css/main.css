@@ -46,4 +46,4 @@ body {
     border-radius: 30px;
 }
 
-a.active {color: #FA4A0C;}
+a.active, a.nav-link:hover {color: #FA4A0C; transition: color .5s;}
