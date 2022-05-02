@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.8;
+    color: #252B42;
+}
+
+/* Utils */
+.container {
+    max-width: 1536px;
+    margin: auto;
+}
+
+.bold {font-weight: 700;} .medium {font-weight: 500;}
+
+.text-normal {font-size: 24px;} .text-2xl {font-size: 58px;}
+
+.second-text {color: #737373;} .text-orange {color: #FA4A0C;}
+
+.text-center {text-align: center;}
+
+.btn {
+    background-color: #FA4A0C;
+    padding: 16px 58px;
+    width: max-content;
+    margin: 15px;
+    cursor: pointer;
+    z-index: 1000;
+    position: relative;
+}
+
+.btn-transparent {
+    background-color: transparent;
+    border: #FFFFFF 1px solid;
+}
+
+.btn-rounded {
+    border-radius: 30px;
+}
