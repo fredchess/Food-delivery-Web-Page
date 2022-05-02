@@ -10,14 +10,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;700&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="assets/css/output.css">
-        <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/output.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     <script src="assets/js/jquery.js"></script>
     <title>Accueil</title>
 </head>
 
 <body class="">
-    <div class="main container">
+    <header class="header">
         <nav class="navbar container flex justify-between">
             <div class="logo my-[25px] ml-[90px]">
                 <a href="#">
@@ -31,8 +32,10 @@
                 <a href="#" class="nav-link">Contact</a>
             </div>
         </nav>
-        <div class="hero-banner container relative bg-[url('../images/home-hero.png')] h-[619px] bg-no-repeat bg-center bg-cover">
-            <div class="content text-white mx-[251px] mt-[73px] absolute text-center">
+    </header>
+    <div class="main container">
+        <div class="hero-banner container flex bg-[url('../images/home-hero.png')] h-[619px] bg-no-repeat bg-center bg-cover">
+            <div class="content text-white w-[66%] text-center mx-auto mt-[72px]">
                 <h3 class="font-bold text-[24px]">Food app</h3>
                 <h1 class="font-bold text-[58px]">Why stay hungry when you can order form Bella Onojie</h1>
                 <h4 class="font-medium text-[24px]">Download the bella onoje’s food app now on</h4>
@@ -48,7 +51,69 @@
                 <img src="assets/images/home-phone-right.png" alt="phone-right" height="531" width="285" class="-ml-[28px] -mt-[55px]">
             </div>
         </div>
+        <hr class="w-[884px] m-auto mt-[128px] mb-[72px] border-[#E4E4E4] border-[1px]">
+        <section class="how-section container pr-[135px] pl-[50px]">
+            <div class="title text-center text-[44px] font-semibold">How the app works</div>
+            <div class="content flex">
+                <div class="image">
+                    <img src="assets/images/section-1.png" alt="">
+                </div>
+                <div class="text my-auto">
+                    <h2 class="text-orange text-[24px] font-bold">Create an account</h2>
+                    <h1 class="font-bold text-[40px]">Create/login to an existing account to get started</h1>
+                    <h4 class="font-medium text-[24px] text-[#737373]">An account is created with your email and a desired password</h4>
+                </div>
+            </div>
+        </section>
+        <section class="varieties-section container pr-[35px] pl-[145px]">
+            <div class="content flex">
+                <div class="text my-auto">
+                    <h2 class="text-orange text-[24px] font-bold">Explore varieties</h2>
+                    <h1 class="font-bold text-[40px]">Shop for your favorites meal as e dey hot.</h1>
+                    <h4 class="font-medium text-[24px] text-[#737373]">Shop for your favorite meals or drinks and enjoy while doing it.</h4>
+                </div>
+                <div class="image">
+                    <img src="assets/images/section-2.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="ckeckout-section container pr-[135px] pl-[50px]">
+            <div class="content flex">
+                <div class="image">
+                    <img src="assets/images/section-3.png" alt="">
+                </div>
+                <div class="text my-auto">
+                    <h2 class="text-orange text-[24px] font-bold">Checkout</h2>
+                    <h1 class="font-bold text-[40px]">When you done check out and get it delivered.</h1>
+                    <h4 class="font-medium text-[24px] text-[#737373]">When you done check out and get it 
+                        delivered with ease.</h4>
+                </div>
+            </div>
+        </section>
+        <section class="download flex container bg-[url('../images/download-hero.png')] h-[516px] bg-no-repeat bg-center bg-cover">
+            <div class="content text-white w-[59%] m-auto">
+                <h1 class="text-[40px] font-bold text-center">Download the app now.</h1>
+                <h4 class="font-medium text-[24px] text-center">Available on your favorite store. Start your premium experience now</h4>
+                <div class="buttons font-bold text-[24px] text-center">
+                    <button class="btn">Playstore</button>
+                    <button class="btn btn-transparent">App store</button>
+                </div>
+            </div>
+        </section>
     </div>
+    <footer class="footer">
+        <div class="container flex justify-between w-[85%] mx-auto">
+            <div class="logo my-[60px]">
+                <img src="assets/images/logo.png" alt="logo">
+            </div>
+            <div class="socials text-[#FA4A0C] my-[100px] text-[32px] space-x-[30px]">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+            </div>
+            <div class="copyright text-[#5C5C5C] my-[100px] flex items-center">Copywright 2020 Bella Onojie.com</div>
+        </div>
+    </footer>
     <script src="assets/js/main.js"></script>
 </body>
 

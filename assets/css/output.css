@@ -549,6 +549,41 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 251px;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mx-\[300px\] {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mx-\[115px\] {
+  margin-left: 115px;
+  margin-right: 115px;
+}
+
+.my-\[60px\] {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.mx-\[100px\] {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.my-\[100px\] {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 .ml-\[90px\] {
   margin-left: 90px;
 }
@@ -597,6 +632,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: -28px;
 }
 
+.mt-\[128px\] {
+  margin-top: 128px;
+}
+
+.mb-\[72px\] {
+  margin-bottom: 72px;
+}
+
+.mr-\[161px\] {
+  margin-right: 161px;
+}
+
+.ml-\[200px\] {
+  margin-left: 200px;
+}
+
+.mt-\[146px\] {
+  margin-top: 146px;
+}
+
+.mt-\[72px\] {
+  margin-top: 72px;
+}
+
 .block {
   display: block;
 }
@@ -633,6 +692,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 586px;
 }
 
+.h-\[516px\] {
+  height: 516px;
+}
+
+.h-max {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.h-full {
+  height: 100%;
+}
+
 .w-\[550px\] {
   width: 550px;
 }
@@ -645,12 +718,48 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 575px;
 }
 
+.w-\[884\] {
+  width: 884;
+}
+
+.w-\[884px\] {
+  width: 884px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-\[72\%\] {
+  width: 72%;
+}
+
+.w-\[85\%\] {
+  width: 85%;
+}
+
+.w-\[75\%\] {
+  width: 75%;
+}
+
+.w-\[59\%\] {
+  width: 59%;
+}
+
+.w-\[66\%\] {
+  width: 66%;
+}
+
 .resize {
   resize: both;
 }
 
 .items-start {
   align-items: flex-start;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .justify-start {
@@ -671,8 +780,27 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: calc(114px * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-x-\[30px\] > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(30px * var(--tw-space-x-reverse));
+  margin-left: calc(30px * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .border {
   border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-\[1px\] {
+  border-width: 1px;
+}
+
+.border-\[\#E4E4E4\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(228 228 228 / var(--tw-border-opacity));
 }
 
 .bg-slate-800 {
@@ -706,6 +834,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('../images/home-hero.png');
 }
 
+.bg-\[url\(\'\.\.\/images\/download-hero\.png\'\)\] {
+  background-image: url('../images/download-hero.png');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -733,6 +865,34 @@ Ensure the default browser behavior of the `hidden` attribute.
      object-position: center;
 }
 
+.pr-\[161px\] {
+  padding-right: 161px;
+}
+
+.pl-\[50px\] {
+  padding-left: 50px;
+}
+
+.pr-\[135px\] {
+  padding-right: 135px;
+}
+
+.pl-\[145px\] {
+  padding-left: 145px;
+}
+
+.pr-\[130px\] {
+  padding-right: 130px;
+}
+
+.pl-\[75px\] {
+  padding-left: 75px;
+}
+
+.pr-\[35px\] {
+  padding-right: 35px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -748,6 +908,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-\[58px\] {
   font-size: 58px;
+}
+
+.text-\[44px\] {
+  font-size: 44px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-\[32px\] {
+  font-size: 32px;
 }
 
 .font-semibold {
@@ -770,6 +942,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#737373\] {
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity));
+}
+
+.text-\[\#FA4A0C\] {
+  --tw-text-opacity: 1;
+  color: rgb(250 74 12 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-\[\#5C5C5C\] {
+  --tw-text-opacity: 1;
+  color: rgb(92 92 92 / var(--tw-text-opacity));
 }
 
 .blur {

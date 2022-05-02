@@ -13,6 +13,10 @@ body {
     color: #252B42;
 }
 
+img {
+ max-width: unset;   
+}
+
 /* Utils */
 .container {
     max-width: 1536px;
@@ -47,3 +51,7 @@ body {
 }
 
 a.active, a.nav-link:hover {color: #FA4A0C; transition: color .5s;}
+
+section.download .buttons .btn {
+    border-radius: 10px;
+}
