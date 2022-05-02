@@ -45,3 +45,5 @@ body {
 .btn-rounded {
     border-radius: 30px;
 }
+
+a.active {color: #FA4A0C;}
